@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/zade-frontend-react-026/tree/Hosting/static/css/main.30ea52ad.css",
+    "main.js": "/zade-frontend-react-026/tree/Hosting/static/js/main.2903dccb.js",
+    "static/js/787.77e5f2af.chunk.js": "/zade-frontend-react-026/tree/Hosting/static/js/787.77e5f2af.chunk.js",
+    "static/media/logo.svg": "/zade-frontend-react-026/tree/Hosting/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/zade-frontend-react-026/tree/Hosting/index.html",
+    "main.30ea52ad.css.map": "/zade-frontend-react-026/tree/Hosting/static/css/main.30ea52ad.css.map",
+    "main.2903dccb.js.map": "/zade-frontend-react-026/tree/Hosting/static/js/main.2903dccb.js.map",
+    "787.77e5f2af.chunk.js.map": "/zade-frontend-react-026/tree/Hosting/static/js/787.77e5f2af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ea52ad.css",
+    "static/js/main.2903dccb.js"
+  ]
+}
