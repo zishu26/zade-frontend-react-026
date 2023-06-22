@@ -4,11 +4,24 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './Layouts/Navbar';
 import React, { Component }  from 'react';
 import Home from './Pages/Home';
+import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
+import AddUser from './Users/AddUser';
+import EditUser from './Users/EditUser';
+import ViewUser from './Users/ViewUser';
+
+
 function App() {
   return (
     <div className='App'>
+      <Router>
       <Navbar/>
-      <Home/>
+      <Routes>
+        <Route exact path="/" element={<Home/>}></Route>
+        <Route exact path="/adduser" element={<AddUser/>}></Route>
+        <Route exact path='/edituser/:id' element={<EditUser/>}></Route>
+        <Route exact path='viewuser/:id' element={<ViewUser/>}></Route>
+      </Routes>
+      </Router>
     </div>
 
   );
