@@ -2,20 +2,25 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 
-export default function ViewUser() {
+export default function ViewStudent() {
 
     let navigate = useNavigate();
 
     const {id}= useParams();
 
-    const [user,setUser]=useState({
+    const [student,setStudent]=useState({
             name:"",
-            userName:"",
-            email:""
+            roll:"",
+            marks1:"",
+            marks2:"",
+            marks3:"",
+            marks4:"",
+            marks5:"",
+            marks6:""
 
     })
 
-    const{name,userName,email}=user
+    const{name,userName,email}=student
 
     // const onInputChange=(e)=>{
     //     setUser({...user, [e.target.name]: e.target.value})
@@ -23,7 +28,7 @@ export default function ViewUser() {
     // };
 
     useEffect( () => {
-        loadUser();  
+        loadStudent();  
     }, []);
     
 
@@ -33,9 +38,9 @@ export default function ViewUser() {
     //     navigate("/");
     // };
 
-    const loadUser = async () => {
-        const result=await axios.get(`http://localhost:8080/user/${id}`,user);
-        setUser(result.data)
+    const loadStudent = async () => {
+        const result=await axios.get(`http://localhost:8080/user/${id}`,student);
+        setStudent(result.data)
     }
 
   return (

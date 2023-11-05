@@ -1,0 +1,42 @@
+.my-component {
+    background-color: darkcyan;
+  }
+
+  .my-component-navbar {
+    color: salmon;
+  }
+  
+  .my-dom-height {
+    height: 1000px;
+  }
+
+  .table-head-color {
+    color: rgb(220, 255, 80);
+  }
+
+  .table-body-color {
+    background-color: rgb(255, 123, 0);
+  }
+
+  .button-color{
+  background-color: aquamarine;
+  }
+
+  .navbar-color{
+    background-color:aquamarine
+  }
+
+  .table-outer{
+  background-color: antiquewhite
+  }
+
+.table-container {
+  max-height: 650px; 
+  overflow-y: auto;
+}
+
+.my-margin{
+  margin-top: 10px;
+}
+
+  
